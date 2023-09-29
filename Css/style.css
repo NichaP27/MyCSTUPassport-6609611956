@@ -22,6 +22,11 @@ ul.menu li a {
   float: left;
   padding: 0.6em 1.5em 0.6em 1.5em;
 }
+ul.menu li a:hover {
+  /*color: cornflowerblue;*/
+  color: goldenrod;
+border-bottom: solid goldenrod 1px;
+}
 h1 {
   color: rgb(0, 0, 0);
   text-align: center;
