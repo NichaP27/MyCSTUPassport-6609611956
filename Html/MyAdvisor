@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My CSTU Passport</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width,intitial-scale=1.0">
+    </head>
+    <body background="white-background-5.jpg" id="bg">
+        <title>My Advisor</title>
+        <h1>My Advisor Proflie</h1>
+        <img src="jarn.jpg" id="me">
+    <div id="bgc">  
+        <h2>AJARN Sirikunya Nilpanich</h2>
+    </div>
+    <section>
+        <nav>
+            <ul class="menu">
+                <li><a href="indexCss.html">My Proflie</a></li>
+            </ul>
+        </nav>
+    </section>
+    </body>
+</html>

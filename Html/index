@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>My CSTU passport homepage</title>
+</head>
+<body>
+    <h1 style="color: black; font-family:monospace; text-align: center;">My Proflie</h1>
+    <style>
+        body {
+            background-image:url(sahara.jpg) ;
+        }
+    </style>
+        <div>
+            <figure>
+                <img src="me.jpg"/>
+                <figcaption style="text-align: center;">
+                My Photo</figcaption>
+            </figure>
+        </div>
+    <div style="background-color: rgb(245, 229, 137);">
+        <pre style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        NAME : Nichapat Rodpranee
+        
+        NICK NAME : Dream
+        
+        Favorite Thing
+        </pre>
+        <ul>
+          <li>GAME</li>
+          <li>Anime</li>
+          <li>Sleeping</li>
+        </ul>
+    </div>
+   <h2 style="font-family: monospace;color: black;">My vidio</h2>
+   <video src="myvideo.mp4" width="320" height="320"
+      controls> 
+   </video> 
+   <div style="background-color: rgb(228, 211, 113);">
+        <p>
+           with my <strong>VIDIO</strong> You can hear <em> voice!</em><br>
+           if you want to be friend with me you can follow my instragram down here
+        </p>
+    </div>
+    <map name="icon">
+        <area shape="default" href="https://www.instagram.com/passta_aa/">
+    </map>
+    <img src="ig.jpg" width="25" height="25" usemap="#icon"> <a href="https://www.instagram.com/passta_aa/">IG : passta_aa</a>
+</body>

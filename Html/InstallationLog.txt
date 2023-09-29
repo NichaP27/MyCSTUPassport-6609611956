@@ -1,0 +1,42 @@
+************************************* Invoked: Thu Sep 7 18:21:04 2023
+[0] Arguments: c:\Users\SARENA\Downloads\msys2-x86_64-20230718.exe, -std=c++98, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[25] Operations sanity check succeeded.
+[33] Using metadata cache from "C:/Users/SARENA/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[33] Found 0 cached items.
+[33] Language: en-US
+[33] Script file does not exist.
+************************************* Invoked: Thu Sep 7 18:21:07 2023
+[0] Arguments: c:\Users\SARENA\Downloads\msys2-x86_64-20230718.exe, -std=c++98, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[12] Operations sanity check succeeded.
+[31] Using metadata cache from "C:/Users/SARENA/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[31] Found 0 cached items.
+[32] Language: en-US
+[32] Script file does not exist.
+************************************* Invoked: Thu Sep 7 18:21:10 2023
+[0] Arguments: c:\Users\SARENA\Downloads\msys2-x86_64-20230718.exe, -std=c++98, -Wp,-v, -E, -dM, -x, c++, nul
+[16] Operations sanity check succeeded.
+[32] Using metadata cache from "C:/Users/SARENA/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[32] Found 0 cached items.
+[32] Language: en-US
+[32] Script file does not exist.
+************************************* Invoked: Thu Sep 7 18:23:42 2023
+[0] Arguments: c:\Users\SARENA\Downloads\msys2-x86_64-20230718.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[49] Operations sanity check succeeded.
+[56] Using metadata cache from "C:/Users/SARENA/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[56] Found 0 cached items.
+[56] Language: en-US
+[56] Script file does not exist.
+************************************* Invoked: Thu Sep 7 18:23:44 2023
+[0] Arguments: c:\Users\SARENA\Downloads\msys2-x86_64-20230718.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[16] Operations sanity check succeeded.
+[24] Using metadata cache from "C:/Users/SARENA/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[24] Found 0 cached items.
+[24] Language: en-US
+[25] Script file does not exist.
+************************************* Invoked: Thu Sep 7 18:23:46 2023
+[0] Arguments: c:\Users\SARENA\Downloads\msys2-x86_64-20230718.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[13] Operations sanity check succeeded.
+[43] Using metadata cache from "C:/Users/SARENA/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[43] Found 0 cached items.
+[43] Language: en-US
+[43] Script file does not exist.
