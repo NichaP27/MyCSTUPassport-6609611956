@@ -10,22 +10,21 @@ ul.menu {
   background-color:brown;
   margin: 0px;
   list-style-type: none;
-  padding: 50px 50px 50px 50px;
+  padding: 25px 25px 25px 25px;
   position: relative;
   overflow: auto;
 }
 ul.menu li a { 
   text-decoration: none;
-  color:white;
+  color: white;
   font-size: 1.2em;
   text-shadow: 1px 1px 2px black;
   float: left;
   padding: 0.6em 1.5em 0.6em 1.5em;
 }
 ul.menu li a:hover {
-  /*color: cornflowerblue;*/
   color: goldenrod;
-border-bottom: solid goldenrod 1px;
+  border-bottom: solid goldenrod 1px;
 }
 h1 {
   color: rgb(0, 0, 0);
@@ -33,9 +32,9 @@ h1 {
   font-family: fantasy;
 }
 h2 {
-  color: brown;
+  color: black;
   text-align: center;
-  font-family: monospace;
+  font-family: fantasy;
 }
 #img {
   vertical-align: text-top;
@@ -106,6 +105,100 @@ div {
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: monospace;
+}
+
+.header {
+  background-color: brown;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.aside {
+  background-color:brown;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: brown;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media screen and (max-width: 700px) {
+  ul.menu li a { display: block; 
+                    float: none;  
+                    text-align: center; }
+  article > section {   padding: 0.5em 10px 0.5em 10px;  }
+  #img2 { width: 99%;
+      border: #d3d3d3 1px solid;
+      padding: 5px;
+      border-radius: 20px; }
+  #imgL, #imgR {  height: auto;    
+      width: 99%;
+      border: #d3d3d3 1px solid;
+      padding: 5px;
+      border-radius: 20px;     }
+  footer {    padding: 0.5em 10px 0.5em 10px; }
+  footer > section:first-child { display: none; }
+}
 
 /* Slideshow container */
 .slideshow-container {
